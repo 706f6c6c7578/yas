@@ -12,10 +12,10 @@ Compiling for Linux:
 $ gcc -o yas linux_app.c core_logic.c `pkg-config --cflags --libs gtk+-2.0`
 
 Compiling for Windows:  
-$ x86_64-w64-mingw32-gcc -o win_yas.exe windows_app.c core_logic.c manifest.res \  
-     -mwindows -municode \  
-     -lcomctl32 -lriched20 -limm32 -lgdiplus -lole32 -luuid \  
-     -I/usr/share/mingw-w64/include \  
+$ x86_64-w64-mingw32-gcc -o win_yas.exe windows_app.c core_logic.c manifest.res \
+     -mwindows -municode \
+     -lcomctl32 -lriched20 -limm32 -lgdiplus -lole32 -luuid \
+     -I/usr/share/mingw-w64/include \
      -L/usr/lib/gcc/x86_64-w64-mingw32/posix
 ```
 
