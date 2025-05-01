@@ -20,6 +20,6 @@ $ x86_64-w64-mingw32-gcc -o yas.exe windows_app.c core_logic.c manifest.res \
 ```
 
 # encode
-![Encode](img/decode.png)
+![Encode](img/encode.png)
 # decode
-![Decode](img/encode.png)
+![Decode](img/decode.png)
